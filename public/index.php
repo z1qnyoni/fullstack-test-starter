@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
-    $r->post('/graphql', App\Controller\GraphQL::handle);
+    $r->post('/graphql', [App\Controller\GraphQL::class, 'handle']);
 });
 
 $routeInfo = $dispatcher->dispatch(

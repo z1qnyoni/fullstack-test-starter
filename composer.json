@@ -6,7 +6,7 @@
             "App\\": "src/"
         },
         "psr-0": {
-            "App": "src/"
+            "": "src/"
         }
     },
     "require": {
