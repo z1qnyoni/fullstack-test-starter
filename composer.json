@@ -1,0 +1,10 @@
+{
+    "name": "scandiweb/fullstack",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Scandiweb\\Fullstack\\": "src/"
+        }
+    },
+    "require": {}
+}
