@@ -7,6 +7,8 @@ use GraphQL\Type\Definition\ObjectType;
 use GraphQL\Type\Definition\Type;
 use GraphQL\Type\Schema;
 use GraphQL\Type\SchemaConfig;
+use RuntimeException;
+use Throwable;
 
 class GraphQL {
     static public function handle() {
