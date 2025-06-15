@@ -1,0 +1,60 @@
+.header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1d1f22;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a.active {
+  font-weight: 600;
+  border-bottom: 2px solid #5ece7b;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 20px;
+  height: 20px;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
